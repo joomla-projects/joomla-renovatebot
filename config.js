@@ -4,7 +4,9 @@ module.exports = {
     extends: ['config:base', ':preserveSemverRanges', ':disableMajorUpdates'],
     versioning: 'semver',
     dependencyDashboard: true,
-    lockFileMaintenance: { enabled: true }
+    lockFileMaintenance: { enabled: true },
+    composerIgnorePlatformReqs: ["ext-*", "lib-*"],
+    rangeStrategy: "update-lockfile"
   },
   enabledManagers: ['composer', 'npm'],
   forkMode: true,
