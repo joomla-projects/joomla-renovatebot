@@ -18,6 +18,7 @@ module.exports = {
     'joomla/framework.joomla.org',
     'joomla/help.joomla.org',
     'joomla/install-from-web-server',
+    'joomla/internal-documentation',
     'joomla/jissues',
     'joomla/Manual',
     'joomla-extensions/jedchecker',
