@@ -23,6 +23,7 @@ module.exports = {
     'joomla/Manual',
     'joomla-extensions/jedchecker',
     'joomla-extensions/patchtester',
+    'joomla-extensions/search',
     'joomla-extensions/weblinks',
     'joomla-projects/custom-elements',
     'joomla-projects/jorobo'
