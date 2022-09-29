@@ -28,5 +28,5 @@ module.exports = {
     'joomla-projects/custom-elements',
     'joomla-projects/jorobo'
   ],
-  "allowedPostUpgradeCommands": ["^node build/build\.js --copy-assets$", "^npm run ", "^npm ci$"],
+  "allowedPostUpgradeCommands": ["^composer install", "^node build/build\.js --copy-assets$", "^npm run ", "^npm ci$", "^npm i$"],
 };
