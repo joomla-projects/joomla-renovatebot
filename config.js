@@ -21,6 +21,7 @@ module.exports = {
     'joomla/internal-documentation',
     'joomla/jissues',
     'joomla/Manual',
+    'joomla/docs.joomla.org',
     'joomla-extensions/jedchecker',
     'joomla-extensions/patchtester',
     'joomla-extensions/search',
